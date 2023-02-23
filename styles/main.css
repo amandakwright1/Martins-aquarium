@@ -18,7 +18,30 @@
 
 */
  
-body{
+
+
+body {
     background-color:lightblue;
-    padding: 2em ;
+}
+
+
+h1 {
+    text-align: center;
+}
+
+.flex-container {
+    display: flex;
+    justify-content: space-between;
+    height:80vh;
+}
+
+.column-1, .column-2, .column-3, .column-4 {
+    margin: 1em;
+    padding: 1em;
+    height: 30vh;
+}
+
+img {
+    height: 200px;
+    width: 200px;
 }
